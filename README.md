@@ -25,7 +25,6 @@ The fine-tuning dataset was constructed through a multi-step process:
 
 1. **Extraction of High-Quality Human Writing:**
    - Paragraphs were extracted from professionally written reports, authored by a single invididual.
-   - We saw marked improvements from fine-tuning from 40 paragraphs upward.
 
 2. **Generation of LLM Versions:**
    - Each extracted paragraph was rewritten using a GPT-4.1 to produce an AI-generated version.
