@@ -52,6 +52,8 @@ The fine-tuning dataset was constructed through a multi-step process:
 
 The main evaluation metric was the GPTZero checker (which appeared to be the most sensitive checker in our testing). To test, we took 10 AI generated paragraphs about a range of topics and re-wrote them using the fine-tuned model (using the same system and user prompt as in fine-tuning). The fine-tuned model's outputs always received lower AI generated scores with the aeverage AI percentage going from 91% to 19% and 7 out of 10 of the re-written texts classified as 'We are highly confident this text is entirely human'.
 
+>Paragrpahs and scores can be reviewed in `eval.csv`.
+
 ![AI Percentage Comparison: Original vs Rewritten Text](ai_percentage_comparison.png)
 
 Additional testing involved blind evaluation by a professional content editor, who was asked to choose between the original and the model-rewritten versions of each paragraph. In 9 out of 10 cases, the professional identified the model-rewritten versions as more human.
