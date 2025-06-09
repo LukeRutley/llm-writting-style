@@ -1,4 +1,3 @@
-# Fine-Tuning Large Language Models for Writing Style: Approach and Results
 [View on GitHub](https://github.com/LukeRutley/llm-writting-style)
 
 # Fine-Tuning Large Language Models for Writing Style: Approach and Results
